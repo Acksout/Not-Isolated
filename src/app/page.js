@@ -1,5 +1,10 @@
-import Image from "next/image";
+"use client";
+import { Globe } from "./components/globe-3d";
 
 export default function Home() {
-  return <div>World</div>;
+  return (
+    <div>
+      <Globe />
+    </div>
+  );
 }
