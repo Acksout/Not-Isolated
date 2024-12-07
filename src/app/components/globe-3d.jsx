@@ -16,9 +16,9 @@ const GLOBE_CONFIG = {
   devicePixelRatio: 2,
   phi: 0,
   theta: 0.3,
-  dark: 0,
+  dark: 1,
   diffuse: 0.4,
-  mapSamples: 16000,
+  mapSamples: 32000,
   mapBrightness: 1,
   baseColor: [1, 1, 2],
   markerColor: [251 / 255, 100 / 255, 21 / 255],
@@ -94,7 +94,7 @@ export const Globe = ({ className, config = GLOBE_CONFIG }) => {
   return (
     <div
       className={cn(
-        "absolute inset-0 mx-auto aspect-[1/1] w-full max-w-[600px]",
+        "absolute  inset-0 mx-auto aspect-[1/1] w-full max-w-[800px]",
         className
       )}
     >

@@ -1,10 +1,9 @@
-"use client";
-import { Globe } from "./components/globe-3d";
+import HomePage from "./components/home-page";
 
 export default function Home() {
   return (
     <div>
-      <Globe />
+      <HomePage />
     </div>
   );
 }
