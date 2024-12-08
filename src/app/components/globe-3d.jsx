@@ -28,6 +28,10 @@ const GLOBE_CONFIG = {
       location: [20.5937, 78.9629],
       size: 0.1,
     },
+    {
+      location: [33, 65],
+      size: 0.1,
+    },
   ],
 };
 
