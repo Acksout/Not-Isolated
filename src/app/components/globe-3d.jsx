@@ -25,7 +25,7 @@ const GLOBE_CONFIG = {
   glowColor: [1, 1, 2],
   markers: [
     {
-      location: [20.5937, 78.9629],
+      location: [20, 78],
       size: 0.1,
     },
     {
